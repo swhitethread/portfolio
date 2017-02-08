@@ -1,0 +1,143 @@
+body{
+	/*background: url(../img/gif4.gif);*/
+	/*background-size: cover; no-repeat right top;*/
+}
+
+body {
+    font-family: 'Karla';
+}
+
+.navbar-default {
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: black !important
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: none;
+}
+.navbar a {
+    color: black !important;
+}
+
+h1 { 
+
+    position:relative;
+    position:absolute;
+    text-align: center;
+    display: block;
+    font-size: 3em;
+    margin-top: 12em;
+    margin-bottom: 0em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: black !important
+}
+
+.jumbotron {
+	align-content: center; 
+    background: none;
+    border: none;
+    position:relative;
+
+}
+
+h2 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 3em;
+}
+
+h3{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 3em;
+    color: black    
+}
+h4 {
+    text-align: center;
+    font-size: 3em;
+    color: black 
+    margin-bottom: 10px;
+}
+
+.white-bg {
+    background-color: white
+}
+
+@media (min-width: 992px) {
+    .modal-lg {
+        width: 1200px;
+    }
+
+    * {
+      border-radius: 0 !important;
+  }
+
+  .title {
+    position: absolute;
+    left: 50%;
+    margin-left: -280.5px;
+    top: -300px;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.skill-icon {
+    left: 50%;
+    position: relative;
+    margin-left: -32px;
+}
+
+.about-paragraph {
+    text-align: left;
+    font-size: 1.5em;
+    color: black
+    margin-right: -100px;
+    margin-left: -100px;
+}
+
+.row {
+    margin-right: -100px;
+    margin-left: -100px;
+}
+
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+}
+
+input, textarea {
+  width: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #797851;
+    border-color: #797851;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #323422;
+    border-color: #323422;
+}
+.email-address{
+    text-align: center;
+    font-size: 1.5em;
+    color: black 
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
