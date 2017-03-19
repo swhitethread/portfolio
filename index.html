@@ -38,9 +38,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#about">ABOUT <span class="sr-only">(current)</span></a></li>
-					<li><a href="#portfolio">PORTFOLIO</a></li>
-					<li class="active"><a href="#contact">CONTACT <span class="sr-only">(current)</span></a></li>
+					<li class="active"><a class="nav-item" href="#about">ABOUT <span class="sr-only">(current)</span></a></li>
+					<li><a class="nav-item" href="#portfolio">PORTFOLIO</a></li>
+					<li class="active"><a class="nav-item" href="#contact">CONTACT <span class="sr-only">(current)</span></a></li>
 					</li>
 				</ul>
 				</form>
@@ -111,8 +111,40 @@
 
 	<div id="portfolio" class="full-width green-bg">
 		<h3 class="margin">PORTFOLIO</h3>
-		<!-- Project 1 thumbnail -->
+
+		<!-- Project 0 Thumbnail -->
 		<div class="portfolio-thumbnail first-thumbnail-fix">
+			<div class="hovereffect">
+				<img class="img-responsive" src="img/pf5.jpg" alt="...">
+				<div class="overlay">
+					<h2>New project</h2>
+					<a href="#" class="info" data-toggle="modal" data-target="#myModal0">view</a>
+				</div>
+			</div>
+		</div>
+
+		<!-- Project 0 Modal -->
+		<div class="modal fade" id="myModal0" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog modal-lg" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">New project</h4>
+					</div>
+					<div class="modal-body">
+						<p>This is an experiment using a hand drawn illustration and various fabrics to create a set of prints.
+						</p>
+					</div>
+					<div class="modal-footer">
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Project 1 thumbnail -->
+		<div class="portfolio-thumbnail ">
 			<!-- Button trigger modal -->
 			<div class="hovereffect">
 				<img class="img-responsive" src="img/pf1.jpg">
@@ -327,7 +359,7 @@
 
 		<!-- Project 3 Thumbnail -->
 
-		<div class="portfolio-thumbnail">
+		<div class="portfolio-thumbnail last-thumbnail-fix">
 			<div class="hovereffect">
 				<img class="img-responsive" src="img/pf3.jpg" alt="...">
 				<div class="overlay">
@@ -368,7 +400,7 @@
 
 		<!-- Project 4 Thumbnail -->
 
-		<div class="portfolio-thumbnail last-thumbnail-fix">
+		<div class="portfolio-thumbnail first-thumbnail-fix">
 			<div class="hovereffect">
 				<img class="img-responsive" src="img/pf4.jpg" alt="...">
 				<div class="overlay">
@@ -399,7 +431,7 @@
 
 		<!-- Project 5 Thumbnail -->
 
-		<div class="portfolio-thumbnail first-thumbnail-fix">
+		<div class="portfolio-thumbnail">
 			<div class="hovereffect">
 				<img class="img-responsive" src="img/pf5.jpg" alt="...">
 				<div class="overlay">
@@ -462,7 +494,7 @@
 
 		<!-- Project 7 Thumbnail -->
 
-		<div class="portfolio-thumbnail">
+		<div class="portfolio-thumbnail last-thumbnail-fix">
 			<div class="hovereffect">
 				<img class="img-responsive" src="img/pf7.jpg" alt="...">
 				<div class="overlay">
@@ -493,7 +525,7 @@
 
 		<!-- Project 8 Thumbnail -->
 
-		<div class="portfolio-thumbnail last-thumbnail-fix">
+		<div class="portfolio-thumbnail first-thumbnail-fix">
 			<div class="hovereffect">
 				<img class="img-responsive" src="img/pf8.jpg" alt="...">
 				<div class="overlay">
@@ -529,7 +561,7 @@
 
 		<!-- Project 9 Thumbnail -->
 
-		<div class="portfolio-thumbnail first-thumbnail-fix">
+		<div class="portfolio-thumbnail">
 			<div class="hovereffect">
 				<img class="img-responsive" src="img/pf9.jpg" alt="...">
 				<div class="overlay">

@@ -315,7 +315,7 @@ ul.nav.navbar-nav a {
 }
 
 ul.nav.navbar-nav li:hover {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     color: white;
 }
 
@@ -372,4 +372,24 @@ ul.nav.navbar-nav li {
 .carousel-control.right,
 .carousel-control.left {
     background-image: none;
+}
+
+/* menu hover effect */
+.nav-item {
+  transition: 0.3s ease;
+  background: white;
+  color: rgb(107, 108, 72);
+  font-size: 20px;
+  text-decoration: none;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 20px 0 !important;
+  /*margin: 0 20px;*/
+}
+.nav-item:hover {
+  border-top: 4px solid rgb(107, 108, 72);
+  border-bottom: 4px solid rgb(107, 108, 72);
+  padding-top: 6px !important; 
+  padding-bottom: 6px !important;
+  margin-top: 14px;
 }
