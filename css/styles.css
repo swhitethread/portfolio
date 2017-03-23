@@ -17,7 +17,7 @@ body {
     background: none;
 }
 .navbar a {
-    color: #6B6C48 !important;
+    color: #668063 !important;
 }
 
 h1 { 
@@ -31,7 +31,7 @@ h1 {
     margin-bottom: 0em;
     margin-left: 0;
     margin-right: 0;
-    color: #6B6C48 !important
+    color: #668063 !important
 }
 
 .jumbotron {
@@ -47,6 +47,7 @@ h2 {
     margin-bottom: 70px;
     text-align: center;
     font-size: 3em;
+    color: #668063;
 }
 
 h3{
@@ -54,14 +55,19 @@ h3{
     margin-bottom: 70px;
     text-align: center;
     font-size: 3em;
-    color: black    
+    color: #668063;  
 }
 h4 {
     text-align: center;
     font-size: 3em;
-    color: black;
+    color: #668063;
     margin-bottom: 10px;
     margin-top: 100px;
+}
+
+.craft {
+  text-align: left;
+  font-size: 1.5em;
 }
 
 .white-bg {
@@ -294,14 +300,17 @@ position: relative;
 .modal-header {
     color:#6B6C48;
     background-color: white;
+    border: solid 15px #ffcc00;
 }
 
 .modal-body {
-     font-size: 1em;
-     margin-top: 50px;
-     margin-bottom: 50px;
-     margin-right: 50px;
-     margin-left: 50px;
+    font-size: 1em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 }
 
 .courgette-slider {
@@ -378,7 +387,7 @@ ul.nav.navbar-nav li {
 .nav-item {
   transition: 0.3s ease;
   background: white;
-  color: rgb(107, 108, 72);
+  color: rgb(255, 204, 10);
   font-size: 20px;
   text-decoration: none;
   border-top: 4px solid white;
@@ -387,8 +396,8 @@ ul.nav.navbar-nav li {
   /*margin: 0 20px;*/
 }
 .nav-item:hover {
-  border-top: 4px solid rgb(107, 108, 72);
-  border-bottom: 4px solid rgb(107, 108, 72);
+  border-top: 4px solid rgb(255, 204, 10);
+  border-bottom: 4px solid rgb(255, 204, 10);
   padding-top: 6px !important; 
   padding-bottom: 6px !important;
   margin-top: 14px;
