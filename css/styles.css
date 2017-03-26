@@ -70,6 +70,16 @@ h4 {
   font-size: 1.5em;
 }
 
+.catzine {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
+
+.bettingslip {
+  align-items: center;
+}
+
 .white-bg {
     background-color: white
 }
@@ -103,11 +113,11 @@ h4 {
 }
 
 .about-paragraph {
-    text-align: absolute;
+    text-align: left;
     font-size: 1.5em;
     color: black;
-    margin-right: -100px;
-    /*margin-left: -100px;*/
+    margin-right: 100px;
+    margin-left: 100px;*/
     margin-top: 300px;
 }
 
@@ -124,19 +134,25 @@ input, textarea {
 }
 .btn-primary {
     color: #fff;
-    background-color: #49a34b;
-    border-color: #49a34b;
+    background-color: #668063;
+    border-color: #668063;
 }
 .btn-primary:hover {
     color: #fff;
-    background-color: #346630;
-    border-color: #346630;
+    background-color: #dde2a4;
+    border-color: #dde2a4;
 }
 .email-address{
     text-align: center;
     font-size: 1.5em;
     color: black;
     margin-bottom: 10px;
+}
+
+.tapeimg {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom:50px;
 }
 
 
@@ -300,7 +316,7 @@ position: relative;
 .modal-header {
     color:#6B6C48;
     background-color: white;
-    border: solid 15px #ffcc00;
+    border: solid 15px #668063;
 }
 
 .modal-body {
@@ -309,6 +325,10 @@ position: relative;
     margin-bottom: 50px;
     margin-right: 50px;
     margin-left: 50px;
+}
+
+.modal-footer {
+    background-color: #668063;
 }
 
 }
@@ -387,7 +407,7 @@ ul.nav.navbar-nav li {
 .nav-item {
   transition: 0.3s ease;
   background: white;
-  color: rgb(255, 204, 10);
+  color: #dde2a4;
   font-size: 20px;
   text-decoration: none;
   border-top: 4px solid white;
@@ -396,8 +416,8 @@ ul.nav.navbar-nav li {
   /*margin: 0 20px;*/
 }
 .nav-item:hover {
-  border-top: 4px solid rgb(255, 204, 10);
-  border-bottom: 4px solid rgb(255, 204, 10);
+  border-top: 4px solid #dde2a4;
+  border-bottom: 4px solid #dde2a4;
   padding-top: 6px !important; 
   padding-bottom: 6px !important;
   margin-top: 14px;
