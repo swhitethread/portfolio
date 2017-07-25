@@ -22,13 +22,13 @@ body {
 
 h1 { 
 
-    position:relative;
-    position:absolute;
+    /*position:relative;*/
+    /*position:absolute;*/
     text-align: center;
     display: block;
     font-size: 3em;
-    margin-top: 12em;
-    margin-bottom: 0em;
+    margin-top: 100px;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     color: #668063 !important
@@ -75,6 +75,11 @@ h4 {
     font-size: 1.5em;
     color: black;
 }
+.memeessay {
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+}
 
 .bettingslip {
   align-items: center;
@@ -92,13 +97,14 @@ h4 {
     * {
       border-radius: 0 !important;
   }
+}
 
-  .title {
+/*  .title {
     position: absolute;
     left: 50%;
     margin-left: -280.5px;
     top: -300px;
-}
+}*/
 
 .navbar {
     position: absolute;
@@ -107,9 +113,17 @@ h4 {
 }
 
 .skill-icon {
-    left: 50%;
+  float: left;
+    /*left: 50%;
     position: relative;
-    margin-left: -32px;
+    margin-left: -32px;*/
+
+}
+
+.skill-icon-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about-paragraph {
