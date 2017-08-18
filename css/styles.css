@@ -4,7 +4,12 @@
 /*}*/
 
 body {
-    font-family: 'Karla';
+    font-family: 'Karla', sans-serif;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .navbar-default {
@@ -124,6 +129,11 @@ h4 {
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+
+.skill-icon {
+    float: left;
+    margin-left: 120px;
 }
 
 .about-paragraph {
@@ -435,4 +445,12 @@ ul.nav.navbar-nav li {
   padding-top: 6px !important; 
   padding-bottom: 6px !important;
   margin-top: 14px;
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) { 
+  .portfolio-thumbnail {
+    width: 100% !important;
+}
+.about-paragraph {
+    margin: 0;
+}
 }
